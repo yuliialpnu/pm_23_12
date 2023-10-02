@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee5665e-42c6-4a3e-9b78-c538e2d060cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/css/aside.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/img/MetroPanel.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/sass/styles.sass" afterDir="false" />
@@ -30,7 +27,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webprogramming_nulp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/aside.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -116,7 +117,7 @@
       <workItem from="1695992796881" duration="2316000" />
       <workItem from="1696179395289" duration="5786000" />
       <workItem from="1696268595821" duration="1683000" />
-      <workItem from="1696270315982" duration="5808000" />
+      <workItem from="1696270315982" duration="11598000" />
     </task>
     <servers />
   </component>

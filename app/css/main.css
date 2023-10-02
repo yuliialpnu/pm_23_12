@@ -1,8 +1,6 @@
 .main{
-    max-width: 100%;
-}
-.header{
-    width: 100%;
+    width: 1191px;
+    margin-left: 37px;
 }
 
 .header_bars{
@@ -44,7 +42,7 @@
 }
 
 .total{
-    width: 1200px;
+    width: 1191px;
     margin-top: 35px;
     display: flex;
     flex-direction: row;
@@ -93,7 +91,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 35px;
-    width: 1200px;
+    width: 1191px;
     height: 522px;
     background-color: #34495e;
 }
