@@ -1,0 +1,76 @@
+@mixin total-size($total-size: Total-size)
+  width: 372px
+  height: 212px
+
+.main
+  display: flex
+  flex-wrap: wrap
+  width: 1191px
+
+.header
+  display: flex
+  justify-content: space-between
+  width: 1191px
+  flex-wrap: wrap
+
+
+.options
+  width: 372px
+  height: 144px
+  background-color: #e67e22
+  display: flex
+  justify-content: space-evenly
+  align-content: center
+
+
+.button
+  background-color: transparent
+  border: none
+  outline: none
+
+
+.search
+  width: 372px
+  height: 144px
+  background-color: #e74c3c
+  display: flex
+  justify-content: flex-start
+
+
+.account
+  width: 372px
+  height: 144px
+  background-color: #c0392b
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+.home_line
+  width: 1191px
+  height: 53px
+  background-color: #e6e6e6
+  display: flex
+  justify-content: flex-start
+
+
+.total
+  display: flex
+  justify-content: space-evenly
+  width: 1191px
+
+
+.total_visitor
+  display: flex
+  @include total-size
+  background-color: #7f8c8d
+  flex-direction: column
+  justify-content: space-around
+
+.total_visitor__p
+  margin: 40px 40px auto 165px
+
+
+.new_10
+  display: flex
+  justify-content: space-between

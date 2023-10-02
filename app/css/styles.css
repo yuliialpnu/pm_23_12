@@ -1,0 +1,12 @@
+body{
+    width: 1680px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+}
