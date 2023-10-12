@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -85,7 +85,9 @@
                 </div>
                 <div class="header_block search d-flex justify-content-evenly align-items-center">
                     <button class="magnifying_glass"><img src="img/Search.png" alt="magnifying_glass"></button>
-                    <input class="search_input">
+                    <label>
+                        <input class="search_input">
+                    </label>
                 </div>
                 <div class="header_block account d-flex justify-content-evenly align-items-center">
                     <button class="account_svg"><img src="img/Pic.png" alt="account_svg"></button>
@@ -100,27 +102,27 @@
         </div>
         <div class="total d-flex justify-content-between">
             <div class="total_block total_visitor">
-                <p class="total_block__element">TOTAL VISITOR</p>
-                <p class="total_block__element centered">40,600</p>
+                <p class="total_block__element_text">TOTAL<b>VISITOR</b></p>
+                <p class="total_block__element_num centered">40,600</p>
                 <div class="total_block__element lower">
-                    <p>10% New Today</p>
-                    <button class="btn visitor_arrow"><img src="img/Next%20Navi.png" alt="circled_arrow"></button>
+                    <p class="total_block__element_new">10% New Today</p>
+                    <button class="btn total_arrow"><img src="img/Next%20Navi.png" alt="circled_arrow"></button>
                 </div>
             </div>
             <div class="total_block total_sale">
-                <p class="total_block__element">TOTAL SALE</p>
-                <p class="total_block__element centered">13,370</p>
+                <p class="total_block__element_text">TOTAL<b>SALE</b></p>
+                <p class="total_block__element_num centered">13,370</p>
                 <div class="total_block__element lower">
-                    <p>400 New Today</p>
-                    <button class="btn sale_arrow"><img src="img/Next%20Navi.png" alt="circled_arrow"></button>
+                    <p class="total_block__element_new">400 New Today</p>
+                    <button class="btn total_arrow"><img src="img/Next%20Navi.png" alt="circled_arrow"></button>
                 </div>
             </div>
             <div class="total_block total_user">
-                <p class="total_block__element">TOTAL USER</p>
-                <p class="total_block__element centered">15,200</p>
+                <p class="total_block__element_text">TOTAL<b>USER</b></p>
+                <p class="total_block__element_num centered">15,200</p>
                 <div class="total_block__element lower">
-                    <p>470 New Today</p>
-                    <button class="btn user_arrow"><img src="img/Next%20Navi.png" alt="circled_arrow"></button>
+                    <p class="total_block__element_new">470 New Today</p>
+                    <button class="btn total_arrow"><img src="img/Next%20Navi.png" alt="circled_arrow"></button>
                 </div>
             </div>
         </div>
@@ -141,36 +143,58 @@
             </div>
         </div>
         <div class="map-report">
-            <div class="map">
+            <div class="map map_el">
                 <div class="crucifix"><img class="crucifix" src="img/Close.png" alt="map_crucifix"></div>
-                <div class="map_legend">
-                    <h3>World Sales</h3>
-                    <div class="legend_color red"></div>
-                    <p>40%</p>
-                    <div class="legend_color blue"></div>
-                    <p>12%</p>
-                    <div class="legend_color green"></div>
-                    <p>11%</p>
-                    <div class="legend_color pink"></div>
-                    <p>10%</p>
-                    <div class="legend_color yellow"></div>
-                    <p>18%</p>
-                    <div class="legend_color orange"></div>
-                    <p>9%</p>
+                <div class="map_legend  d-flex justify-content-sm-evenly">
+                    <h3 class="world_sales">World Sales</h3>
+                    <div class="map_square legend_color red"></div>
+                    <p class="map_num">40%</p>
+                    <div class="map_square legend_color blue"></div>
+                    <p class="map_num">12%</p>
+                    <div class="map_square legend_color green"></div>
+                    <p class="map_num">11%</p>
+                    <div class="map_square legend_color pink"></div>
+                    <p class="map_num">10%</p>
+                    <div class="map_square legend_color yellow"></div>
+                    <p class="map_num">18%</p>
+                    <div class="map_square legend_color orange"></div>
+                    <p class="map_num">9%</p>
                 </div>
                 <img src="img/Layer%207.png" alt="map of the world">
             </div>
             <div class="report">
-                <p class="sales_report"></p>
-                <div class="sales_white">
-                    <div class="sales_green"></div>
+                <img class="crucifix" src="img/Close.png" alt="crucifix">
+                <p class="site_report"><b>Site Report</b></p>
+                <div class="site_progress">
+                    <div class="sales_block">
+                        <div class="sales_p">
+                            <p>Sales</p>
+                            <p>65%</p>
+                        </div>
+                        <div class="sales_white">
+                            <div class="sales_green"></div>
+                        </div>
+                    </div>
+                    <div class="revenue_block">
+                        <div class="revenue_p">
+                            <p>Revenue</p>
+                            <p>88%</p>
+                        </div>
+                        <div class="revenue_white">
+                            <div class="revenue_yellow"></div>
+                        </div>
+                    </div>
+                    <div class="new__orders_block">
+                        <div class="new__orders_p">
+                            <p>New Orders</p>
+                            <p>92%</p>
+                        </div>
+                        <div class="new__orders_white">
+                            <div class="new__orders_red"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="revnue_white">
-                    <div class="revnue_yellow"></div>
-                </div>
-                <div class="new__orders_white">
-                    <div class="new__orders_red"></div>
-                </div>
+
                 <p class="established__fact">It is a long-established fact that a reader will be distracted
                     by the readable content of a page when looking at its layout.</p>
             </div>
@@ -190,9 +214,15 @@
             <div class="feedback">
                 <img class="crucifix" src="img/Close.png" alt="crucifix">
                 <form>
-                    <input type="text" name="username"><br>
-                    <input type="text" name="subject"><br>
-                    <input type="text" name="message"><br>
+                    <label>
+                        <input type="text" name="username">
+                    </label><br>
+                    <label>
+                        <input type="text" name="subject">
+                    </label><br>
+                    <label>
+                        <input type="text" name="message">
+                    </label><br>
                     <input type="submit" value="Send"><br>
                 </form>
             </div>
@@ -202,35 +232,44 @@
                 <img src="" alt="more">
             </div>
         </div>
-        <div class="additional_info">
-            <button class="latest_comments">Latest Comments</button>
-            <button class="latest_articles">Latest Articles</button>
-            <button class="newest_users">Newest Users</button>
-            <div class="comments">
-                <div>
-                    <img src="img/Rectangle%2018.png" alt="curly woman">
-                    <p>on <b>Fashion News</b> by <b>Jolia</b></p>
-                    <p>12-11-2014</p>
-                    <p>it is a long-established fact that a reader will be distracted
+
+        <div class="comments">
+            <div class="latest">
+                <button class="latest_el latest_comments"><b>Latest Comments</b></button>
+                <button class="latest_el latest_articles"> <b>Latest Articles</b> </button>
+                <button class="latest_el newest_users"> <b>Newest Users</b></button>
+            </div>
+            <div class="comments_els">
+                <div class="news ">
+                    <img class="news_img" src="img/Rectangle%2018.png" alt="curly woman">
+                    <div class="news_block">
+                        <p class="news_type">on <b>Fashion News</b>/ by <b>Jolia</b></p>
+                        <p class="data">12-11-2014</p>
+                        <p class="news_p">it is a long-established fact that a reader will be distracted
                         by the readable content of a page when looking at its layout.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="img/Rectangle%2018%20(1).png" alt="man">
-                    <p>on <b>Technology News</b> by <b>Deo</b></p>
-                    <p>12-11-2014</p>
-                    <p>it is a long-established fact that a reader will be distracted
-                        by the readable content of a page when looking at its layout.</p>
+                <div class="news ">
+                    <img class="news_img" src="img/Rectangle%2018%20(1).png" alt="man">
+                    <div class="news_block">
+                        <p class="news_type">on <b>Technology News</b>/ by <b>Deo</b></p>
+                        <p class="data">12-11-2014</p>
+                        <p class="news_p">it is a long-established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="img/Rectangle%2018%20(2).png" alt="woman">
-                    <p>on <b>Fashion News</b> by <b>Jolia</b></p>
-                    <p>12-11-2014</p>
-                    <p>it is a long-established fact that a reader will be distracted
+                <div class="news ">
+                    <img class="news_img" src="img/Rectangle%2018%20(2).png" alt="woman">
+                    <div class="news_block">
+                        <p class="news_type">on <b>Fashion News</b>/ by <b>Jolia</b></p>
+                        <p class="data">12-11-2014</p>
+                        <p class="news_p">it is a long-established fact that a reader will be distracted
                         by the readable content of a page when looking at its layout.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+</div>
 </div>
 
 

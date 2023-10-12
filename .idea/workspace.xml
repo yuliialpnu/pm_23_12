@@ -5,38 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee5665e-42c6-4a3e-9b78-c538e2d060cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/img/MetroPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/styles.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Bell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Ellipse 1 copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Ellipse 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Layer 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Next Navi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Right copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/Setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/restart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webprogramming_nulp.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Articals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Calacdar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Dashbord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Email copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/FAQs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/MetroPanel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Pages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Pics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Rectangle 18 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Rectangle 18 (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Rectangle 18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Revenue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Setting1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Users.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/aside.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/styles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/Setting.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/Setting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variant-12.psd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -74,13 +74,13 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;C:/programing/frontend_labs/webprogramming_nulp/node_modules/gulp&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/programing/frontend_labs/webprogramming_nulp/app/css&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -117,7 +117,14 @@
       <workItem from="1695992796881" duration="2316000" />
       <workItem from="1696179395289" duration="5786000" />
       <workItem from="1696268595821" duration="1683000" />
-      <workItem from="1696270315982" duration="11598000" />
+      <workItem from="1696270315982" duration="11968000" />
+      <workItem from="1696323460777" duration="2418000" />
+      <workItem from="1696593375156" duration="10189000" />
+      <workItem from="1696692411939" duration="1627000" />
+      <workItem from="1696711675088" duration="507000" />
+      <workItem from="1696843009870" duration="7302000" />
+      <workItem from="1696938068285" duration="7516000" />
+      <workItem from="1697055190616" duration="5000" />
     </task>
     <servers />
   </component>

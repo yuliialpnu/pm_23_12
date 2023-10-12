@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 .page {
@@ -120,6 +121,27 @@ footer{
     border: none;
 }
 
+.home_line {
+    padding-top: 5px;
+}
+
+.map_el {
+    padding-top: 51px;
+}
+
+.world_sales{
+    font-size: 20px;
+}
+
+.map_num {
+    font-size: 13px;
+}
+
+.map_square {
+    width: 23px;
+    height: 23px;
+}
+
 .total{
     width: 1200px;
     margin-top: 35px;
@@ -128,6 +150,26 @@ footer{
 
 .total_visitor{
     background-color: #7f8c8d;
+}
+
+.total_block__element_text {
+    font-size: 20px;
+    margin-top: 38px;
+    margin-left: 40px;
+}
+
+.total_block__element_num {
+    margin-top: 36px;
+    font-size: 40px;
+}
+
+.total_block__element_new {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.total_arrow {
+    margin-right: 20px;
 }
 
 .total_sale{

@@ -8,13 +8,13 @@ var rename = require("gulp-rename");
 var browserSync = require('browser-sync').create();
 
 gulp.task("html", function () {
-    return gulp.src("app/*.html")
+    return gulp.src("./app/*.html")
         .pipe(gulp.dest("dist"))
         .pipe(browserSync.stream());
 });
 
 gulp.task("css", function () {
-    return gulp.src("app/css/*.css")
+    return gulp.src("./app/css/*.css")
         .pipe(concat('styles.css'))
         .pipe(cssnano())
         .pipe(rename({ suffix: '.min' }))
@@ -23,8 +23,8 @@ gulp.task("css", function () {
 });
 
 gulp.task("sass", function () {
-    return gulp.src("app/sass/*.sass")
-        .pipe(concat('styles.sass'))
+    return gulp.src("./app/sass/*.scss")
+        .pipe(concat('styles.scss'))
         .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
@@ -32,35 +32,36 @@ gulp.task("sass", function () {
         }))
         .pipe(cssnano())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest("dist/css"))
+        .pipe(gulp.dest("./dist/css"))
         .pipe(browserSync.stream());
 });
 
 gulp.task("scripts", function () {
-    return gulp.src("app/js/*.js")
+    return gulp.src("./app/js/*.js")
         .pipe(concat('scripts.js'))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest("dist/js"))
+        .pipe(gulp.dest("./dist/js"))
         .pipe(browserSync.stream());
 });
 
 gulp.task('imgs', function () {
-    return gulp.src("app/img/*.{jpg,jpeg,png,gif}")
-        .pipe(gulp.dest("dist/images"))
+    return gulp.src("./app/img/*.{jpg,jpeg,png,gif}")
+        .pipe(gulp.dest("dist/img"))
         .pipe(browserSync.stream());
 });
 
 gulp.task("watch", function () {
     browserSync.init({
+        files: './app/index.html',
         server: {
             baseDir: ["./app", "./dist"]
         }
     });
-    gulp.watch("app/*.html", gulp.series("html"));
-    gulp.watch("app/js/*.js", gulp.series("scripts"));
-    gulp.watch("app/sass/*.sass", gulp.series("sass"));
-    gulp.watch("app/img/*.{jpg,jpeg,png,gif}", gulp.series("imgs"))
+    gulp.watch("./app/*.html", gulp.series("html"));
+    gulp.watch("./app/js/*.js", gulp.series("scripts"));
+    gulp.watch("./app/sass/*.scss", gulp.series("sass"));
+    gulp.watch("./app/img/*.{jpg,jpeg,png,gif}", gulp.series("imgs"))
     gulp.watch("dist").on('change', browserSync.reload);
 });
 
