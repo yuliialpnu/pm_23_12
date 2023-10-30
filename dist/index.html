@@ -142,7 +142,7 @@
         </div>
         <div class="map-report">
             <div class="map map_el">
-                <div class="crucifix"><img class="crucifix" src="img/Close.png" alt="map_crucifix"></div>
+                <img class="crucifix" src="img/Close.png" alt="map_crucifix">
                 <div class="map_legend  d-flex justify-content-sm-evenly">
                     <h3 class="world_sales">World Sales</h3>
                     <div class="map_square legend_color red"></div>
@@ -158,7 +158,7 @@
                     <div class="map_square legend_color orange"></div>
                     <p class="map_num">9%</p>
                 </div>
-                <img src="img/Layer%207.png" alt="map of the world">
+                <img class="map_img" src="img/Layer%207.png" alt="map of the world">
             </div>
             <div class="report">
                 <img class="crucifix" src="img/Close.png" alt="crucifix">
@@ -201,9 +201,15 @@
         <div class="sale-trend">
             <div class="today__sale">
                 <img class="crucifix" src="img/Close.png" alt="crucifix">
+                <img class="purple_dote1" src="img/purple_dote.png" alt="purple dote on graph">
+                <img class="purple_dote2" src="img/purple_dote.png" alt="purple dote on graph">
+                <img class="purple_dote3" src="img/purple_dote.png" alt="purple dote on graph">
+                <img class="green_dote" src="img/green_dote.png" alt="green dote on graph">
             </div>
             <div class="users__trend">
-                <img class="crucifix" src="img/Close.png" alt="crucifix">
+                <div>
+                    <img class="crucifix" src="img/Close.png" alt="crucifix">
+                </div>
             </div>
         </div>
 
@@ -211,17 +217,18 @@
         <div class="full_calendar">
             <div class="feedback">
                 <img class="crucifix" src="img/Close.png" alt="crucifix">
+                <p class="feedback_text">Feedback</p>
                 <form>
                     <label>
-                        <input type="text" name="username">
+                        <input class="username" type="text" name="username" placeholder="Username">
                     </label><br>
                     <label>
-                        <input type="text" name="subject">
+                        <input class="subject" type="text" name="subject" placeholder="Subject">
                     </label><br>
                     <label>
-                        <input type="text" name="message">
+                        <input class="message1" type="text" name="message" placeholder="Message">
                     </label><br>
-                    <input type="submit" value="Send"><br>
+                    <input class="submit" type="submit" value="Send"><br>
                 </form>
             </div>
             <div class="calendar">
@@ -274,5 +281,7 @@
 <footer class="container-fluid d-flex justify-content-center align-items-center">
     <p class="">Copy Rights 2014. <b>CreativeCrank</b></p>
 </footer>
+
+
 </body>
 </html>
