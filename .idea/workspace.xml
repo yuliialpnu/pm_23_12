@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6ee5665e-42c6-4a3e-9b78-c538e2d060cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/aside.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "js.buildTools.gulp.gulp_package_dir": "C:/programing/frontend_labs/webprogramming_nulp/node_modules/gulp",
-    "last_opened_file_path": "C:/programing/frontend_labs/webprogramming_nulp/app/css",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;C:/programing/frontend_labs/webprogramming_nulp/node_modules/gulp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programing/frontend_labs/webprogramming_nulp/app/css&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\programing\frontend_labs\webprogramming_nulp\app\css" />
@@ -117,6 +113,8 @@
       <workItem from="1698427956096" duration="3000" />
       <workItem from="1698594494515" duration="682000" />
       <workItem from="1698654248301" duration="15091000" />
+      <workItem from="1698701110562" duration="980000" />
+      <workItem from="1698745360093" duration="4201000" />
     </task>
     <servers />
   </component>

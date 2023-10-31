@@ -22,11 +22,7 @@ footer {
   padding: 40px;
 }
 
-.crucifix {
-  height: 22px;
-  width: 22px;
-  position: relative;
-}
+
 
 .nav_bar {
   color: #fff;
@@ -145,6 +141,35 @@ footer {
 
 .map_el {
   padding-top: 51px;
+}
+
+.crucifix , .map_crucifix , .statics_crucifix , .site_crucifix{
+  height: 22px;
+  width: 22px;
+  position: relative;
+
+}
+
+.statics_crucifix {
+  top: 26px;
+  right: 22px;
+  bottom: 475px;
+  left: 1147px;
+  object-fit: cover;
+}
+
+.map_crucifix {
+  top: 22px;
+  right: 21px;
+  bottom: 454px;
+  left: 739px;
+}
+
+.site_crucifix {
+  top: 7px;
+  right: 22px;
+  bottom: 454px;
+  left: 278px;
 }
 
 .world_sales {
