@@ -7,8 +7,11 @@
     <list default="true" id="6ee5665e-42c6-4a3e-9b78-c538e2d060cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +50,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;C:/programing/frontend_labs/webprogramming_nulp/node_modules/gulp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/programing/frontend_labs/webprogramming_nulp/app/css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programing/дискретка/lab11&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -114,12 +117,34 @@
       <workItem from="1698594494515" duration="682000" />
       <workItem from="1698654248301" duration="15091000" />
       <workItem from="1698701110562" duration="980000" />
-      <workItem from="1698745360093" duration="4201000" />
+      <workItem from="1698745360093" duration="4278000" />
+      <workItem from="1698757970731" duration="2336000" />
+      <workItem from="1698846589581" duration="591000" />
+      <workItem from="1699202460458" duration="32000" />
+      <workItem from="1699264984998" duration="2583000" />
+      <workItem from="1699287710867" duration="6115000" />
+      <workItem from="1699355828174" duration="201000" />
+      <workItem from="1699356046287" duration="2118000" />
+      <workItem from="1699374126103" duration="744000" />
+      <workItem from="1699442213720" duration="26000" />
+      <workItem from="1700301622634" duration="610000" />
+      <workItem from="1700308300764" duration="2116000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
